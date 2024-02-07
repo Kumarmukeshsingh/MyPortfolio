@@ -200,6 +200,12 @@ nav ul li a:hover::after{
    transform: translateY(-10px);
  }
 /* -------------porfolio------------ */
+
+.suv-title{
+   text-align: center;
+    font-size: 50px;
+}
+
  #portfolio{
    padding:0 50px;
  }
