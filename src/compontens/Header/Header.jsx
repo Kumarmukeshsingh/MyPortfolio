@@ -9,7 +9,7 @@ export default function Header() {
           <Link to="/" className="flex items-center">
             <img
               // src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-              src="public/mukeshlogo.png"
+              src="/mukeshlogo.png"
               className="mr-3 h-12"
               alt="Logo"
             />
