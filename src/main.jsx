@@ -14,6 +14,7 @@ import About from "./compontens/About/About.jsx";
 import Service from "./compontens/service/Service.jsx";
 import Github, { githubInfoLoader } from "./compontens/Github/Github.jsx";
 import Contact from "./compontens/contact/Contact.jsx";
+import EMICal from "./Project/EMICal/EMICal.jsx";
 
 // const router = createBrowserRouter([
 //   {
@@ -40,6 +41,8 @@ const router = createBrowserRouter(
       <Route path="/Service" element={<Service />} />
       <Route loader={githubInfoLoader} path="Github" element={<Github />} />
       <Route path="/contact" element={<Contact />} />
+      // project router
+      <Route path="/projcet/emi" element={<EMICal />} />
     </Route>
   )
 );

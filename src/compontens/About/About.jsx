@@ -1,9 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Overlay from "../../Project/overlay/Overlay";
+
 function About() {
   return (
     <>
       <div>
-        <h1> i am about page </h1>
+        <Link to="/projcet/emi">
+          <img src="" alt="" />
+          EMI CALCULATAR
+        </Link>
+
+        <div>
+          <Overlay />
+        </div>
       </div>
     </>
   );
