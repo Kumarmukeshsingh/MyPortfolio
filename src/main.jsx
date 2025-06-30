@@ -15,6 +15,8 @@ import Service from "./compontens/service/Service.jsx";
 import Github, { githubInfoLoader } from "./compontens/Github/Github.jsx";
 import Contact from "./compontens/contact/Contact.jsx";
 import EMICal from "./Project/EMICal/EMICal.jsx";
+import MiniProject from "./Project/MiniProject.jsx";
+import Skill from "./compontens/skills/Skill.jsx";
 
 // const router = createBrowserRouter([
 //   {
@@ -37,12 +39,13 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />,
-      <Route path="/About" element={<About />} />,
+      {/* <Route path="/About" element={<About />} />, */}
       <Route path="/Service" element={<Service />} />
       <Route loader={githubInfoLoader} path="Github" element={<Github />} />
       <Route path="/contact" element={<Contact />} />
       // project router
-      <Route path="/projcet/emi" element={<EMICal />} />
+      <Route path="/skills" element={<Skill />} />
+      <Route path="/miniproject" element={<MiniProject />} />
     </Route>
   )
 );

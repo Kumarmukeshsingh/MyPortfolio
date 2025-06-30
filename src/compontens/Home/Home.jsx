@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import skills from "./skill/assets/all_product";
 
 export default function Home() {
-  const skill = skills;
-  console.log(skill);
+  // const skill = skills;
+  // console.log(skill);
 
   return (
     <>
@@ -12,14 +12,11 @@ export default function Home() {
         {/* //bg-[url('./public/p1_product.png')] */}
         <div className="p-10 ">
           <p> HELLO I AM ....</p>
-          <h1 className="text-2xl text-fuchsia-600">
-            <span>MUKESH KUMAR SINGH</span>
+          <h1 className="text-3xl font-bold">
+            Mukesh Kumar <span className="text-red-500"> SINGH</span>
           </h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni,
-            impedit cumque nemo tempora eos possimus eaque adipisci, provident
-            commodi temporibus harum exercitationem consequuntur laboriosam
-            voluptatibus dolore dolor velit eveniet atque.
+            i am specialize in front-end and backend  development, proficient in programming  language such as  JavaScript , java . I also have extensive experience with popular framework like React, React-redux, Node.js  , Tailwind  , Express.js  allowing me to build dynamic , static and responsive website ..
           </p>
           <button className="bg-blue-600 rounded-md text-white p-1">
             About Me
@@ -115,13 +112,12 @@ export default function Home() {
           />
         </div>
       </div>
-
+      {/* 
       <h1 className="mt-5 text-5xl text-center"> MY SKILL </h1>
       <hr className="bg-rose-600 h-1 mt-2 " />
       <div className=" grid grid-cols-4 gap-4 ">
         {skill.map((d, i) => {
           return (
-            
             <div className="  " key={d.id}>
               <div className="max-w-sm rounded overflow-hidden shadow-lg mt-5">
                 <img
@@ -136,6 +132,10 @@ export default function Home() {
             </div>
           );
         })}
+      </div> */}
+
+      <div>
+        <h1>MY latest project </h1>
       </div>
     </>
   );
