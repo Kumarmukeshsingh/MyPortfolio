@@ -29,11 +29,11 @@ export default function Header() {
           </div>
 
           <div
-            className=" justify-between items-center w-full lg:flex lg:w-auto lg:order-1 bg-red-200 gap-0"
+            className=" justify-between items-center w-full lg:flex lg:w-auto lg:order-1 "
             id="mobile-menu-2"
           >
             {/* <ul className="flex flex-col mt-4 font-medium sm:flex-row lg:space-x-8 lg:mt-0 "> */}
-            <ul className="flex justify-between lg:flex gap-8">
+            <ul className="flex justify-between lg:flex lg:gap-8 font-bold">
               <li>
                 <NavLink
                   to="/"
