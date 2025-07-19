@@ -115,13 +115,13 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className=" bg-gradient-to-t from-orange-200 to-slate-500 m-10 shadow-2xl shadow-fuchsia-600 rounded-3xl">
-        <div className="   flex pl-20 pr-20   max-sm:flex-col">
+      <div className=" bg-gradient-to-t from-orange-200 to-slate-500 m-8 shadow-2xl shadow-fuchsia-600 rounded-3xl">
+        <div className="   flex pl-14 pr-16  max-sm:flex-col">
           <div className="mt-12 p-8  max-sm:p-0  ">
             <h1 className="font-serif font-bold text-md">
               <i> HELLO I'Am...</i>
             </h1>
-            <h1 className="text-4xl font-serif font-bold">
+            <h1 className="text-4xl font-serif font-bold max-sm:text-3xl">
               Mukesh kumar <span className="text-red-400">Singh</span>
             </h1>
             <h2 className="text-xl">SOFTWARE DEVLOPER.....</h2>
@@ -227,7 +227,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="p-6">
+          <div className="p-6 ">
             <img
               className=" border rounded-full  mt-16 flex justify-center    "
               src="/Mukeshphoto.png"
@@ -237,7 +237,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-10">
+      <div className="p-10 shadow-2xl shadow-pink-500">
         <div className=" bg-gradient-to-t from-slate-500 to-orange-200 rounded-2xl">
           <h1 className="text-center text-3xl font-bold ">Latest Project </h1>
           <hr className="  h-1   bg-red-700" />
