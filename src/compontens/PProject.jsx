@@ -13,24 +13,29 @@ function PProject() {
           <h1 className="text-center font-serif font-bold ">
             Contact_Saver app{" "}
           </h1>
-          <a href="https://www.google.com/" target="_blank">
-            <div className=" border p-2 bg-slate-400   rounded-xl  hover:shadow-2xl hover:shadow-slate-500">
-              <div className="">
-                <img
-                  src="Mukeshphoto.png"
-                  height="100px"
-                  width="300px"
-                  alt=""
-                />
+          <a href="https://contact-saver-front.vercel.app/" target="_blank">
+            <div className=" border pl-3  pt-3 bg-slate-400   rounded-xl  hover:shadow-2xl hover:shadow-slate-500">
+              <div className="w-72 border h-72">
+                <img src="login_pic.png " height="" width="300px" alt="" />
               </div>
 
-              <div className=" flex justify-between  bg-slate-400 p-3">
-                <FaNodeJs />
-                <FaReact />
-                <FaReact />
-                <FaReact />
-                <FaReact />
-                <FaReact />
+              <div className="mr-4 rounded-lg p-3 bg-slate-400">
+                <div className=" flex justify-between   mr-3 mt-3 p-3 rounded-xl  shadow-indigo-500   shadow">
+                  <FaNodeJs className="hover:text-slate-700" />
+                  <FaReact />
+                                 
+                  <FaReact />
+                  <FaReact />
+                  <FaReact />
+                </div>
+                <div className=" flex justify-between   mr-3   p-3 rounded-xl  shadow-indigo-500 shadow mb-2">
+                  <FaNodeJs />
+                  <FaReact />
+
+                  <FaReact />
+                  <FaReact />
+                  <FaReact />
+                </div>
               </div>
             </div>
           </a>
@@ -40,24 +45,29 @@ function PProject() {
           <h1 className="text-center font-serif font-bold ">
             Contact_Saver app{" "}
           </h1>
-          <a href="https://www.google.com/" target="_blank">
-            <div className=" border p-2 bg-slate-400   rounded-xl shadow-2xl shadow-slate-500">
-              <div className="">
-                <img
-                  src="Mukeshphoto.png"
-                  height="100px"
-                  width="300px"
-                  alt=""
-                />
+          <a href="https://contact-saver-front.vercel.app/" target="_blank">
+            <div className=" border pl-3  pt-3 bg-slate-400   rounded-xl  hover:shadow-2xl hover:shadow-slate-500">
+              <div className="w-72 border h-72">
+                <img src="Mukeshphoto.png " height="" width="300px" alt="" />
               </div>
 
-              <div className=" flex justify-between  bg-slate-400 p-3">
-                <FaNodeJs />
-                <FaReact />
-                <FaReact />
-                <FaReact />
-                <FaReact />
-                <FaReact />
+              <div className="mr-4 rounded-lg p-3 bg-slate-400">
+                <div className=" flex justify-between   mr-3 mt-3 p-3 rounded-xl  shadow-indigo-500   shadow">
+                  <FaNodeJs className="hover:text-slate-300" />
+                  <FaReact />
+
+                  <FaReact />
+                  <FaReact />
+                  <FaReact />
+                </div>
+                <div className=" flex justify-between   mr-3   p-3 rounded-xl  shadow-indigo-500 shadow mb-2">
+                  <FaNodeJs />
+                  <FaReact />
+
+                  <FaReact />
+                  <FaReact />
+                  <FaReact />
+                </div>
               </div>
             </div>
           </a>

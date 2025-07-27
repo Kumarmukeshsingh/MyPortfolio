@@ -8,12 +8,15 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
-              <img
+              {/* <img
                 // src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
                 src="/mukeshlogo.png"
                 className="mr-3 h-16 "
                 alt="Logo"
-              />
+              /> */}
+              <h1 className="font-bold text-xl">
+                Mukesh K. <span className=" text-red-500">Singh</span>
+              </h1>
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -28,7 +31,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="hover:underline">
+                  <Link to="/" className="hover:underline">
                     About
                   </Link>
                 </li>
@@ -50,9 +53,12 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/" className="hover:underline">
+                  {/* <Link to="/" className="hover:underline">
                     Discord
-                  </Link>
+                  </Link> */}
+                  <a href="https://www.linkedin.com/in/singhmukesh2001/" className="hover:underline" target="_blank">
+                    Linkedin
+                  </a>
                 </li>
               </ul>
             </div>
@@ -78,7 +84,7 @@ export default function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023
+            © 2025
             <a href="https://hiteshchoudhary.com/" className="hover:underline">
               Mukeshsingh
             </a>
