@@ -9,14 +9,14 @@ function Skill() {
       <h1 className="mt-5 text-5xl text-center"> MY SKILL </h1>
       <hr className="bg-rose-600 h-1 ml-[40%] mr-[40%]" />
       <div className="bg-gradient-to-t from-orange-200 to-slate-500 m-8 shadow-2xl shadow-fuchsia-600 rounded-3xl  ">
-        <div className=" grid grid-cols-3 gap-4 p-10 ">
+        <div className=" grid grid-cols-3 gap-4 p-10 max-sm:grid-cols-1 ">
           {skill.map((d, i) => {
             return (
-              <div className="  " key={d.id}>
-                <div className="max-w-sm rounded-xl overflow-hidden shadow-lg p-8 bg-red-400  ">
-                  <div className="rounded-full    ">
+              <div className="   " key={d.id}>
+                <div className="max-w-sm rounded-xl overflow-hidden shadow-lg p-8 ">
+                  <div className="rounded-full    h-10 w-10  ml-20">
                     <img
-                      className="w-full "
+                      className="w-full m-2 "
                       src={d.logo}
                       alt="Sunset in the mountains"
                     />

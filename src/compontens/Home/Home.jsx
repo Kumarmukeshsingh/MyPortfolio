@@ -126,14 +126,12 @@ export default function Home() {
             </h1>
             <h2 className="text-xl">SOFTWARE DEVLOPER.....</h2>
             <p className="mt-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              animi veniam ea excepturi harum mollitia vel perspiciatis
-              doloribus cupiditate id velit dolores debitis quo eos labore, a
-              totam repellat! Quae ipsa dolore ullam nisi voluptatibus tempore
-              fuga magni ducimus dignissimos. Cupiditate ipsa molestias autem ex
-              quasi
+              I am specialize in front-end and backend development, proficient
+              in programming language such as JavaScript , java . I also have
+              extensive experience with popular framework like React,
+              React-redux, Node.js , Tailwind , Express.js allowing me to build
+              dynamic , static and responsive website .
             </p>
-
             <div>
               <div>
                 <button className="bg-blue-400 rounded-md text-white p-2 mt-5">
@@ -241,6 +239,7 @@ export default function Home() {
         <div className=" bg-gradient-to-t from-slate-500 to-orange-200 rounded-2xl">
           <h1 className="text-center text-3xl font-bold ">Latest Project </h1>
           <hr className="  h-1   bg-red-700" />
+          <PProject />
           <PProject />
         </div>
       </div>

@@ -1,4 +1,4 @@
-let all_skills=[
+let all_skills = [
    {
       "name": "Java",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
@@ -35,12 +35,7 @@ let all_skills=[
       "category": "Database",
       "level": "Advanced"
    },
-   {
-      "name": "Machine Learning",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Python_logo_1990s.png",
-      "category": "AI/ML",
-      "level": "Beginner"
-   }
+
 ]
 
 export default all_skills;
